@@ -1,0 +1,28 @@
+<h1 style="text-align: center; background-color: blueviolet;">!!Welcome to Indicosmic Pvt Ltd!!</h1>
+<h2 style="text-align: center; background-color: aquamarine;">!!Date,Percent,Decimal,Currency in Angular 16!!</h2>
+<h2 style="text-align: center; background-color: cadetblue;">!!Date Pipes Example!!</h2>
+
+<h3 style="text-align: center;background-color: blanchedalmond;">{{currentDate }}</h3>
+
+<h3 style="text-align: center;background-color: blanchedalmond;">{{currentDate | date :'shortDate'}}</h3>
+
+<h3 style="text-align: center;background-color: blanchedalmond;">{{currentDate | date : 'longDate'}}</h3>
+
+<h3 style="text-align: center;background-color: blanchedalmond;">{{currentDate | date : 'fullDate'}}</h3>
+
+<h2 style="text-align: center; background-color: chartreuse;">!!Percent Pipes Example!!</h2>
+<h3 style="text-align: center; background-color: blanchedalmond;">{{mynumber}}</h3>
+<h3 style="text-align: center;background-color: blanchedalmond;">{{mynumber | percent}}</h3>
+
+<h3 style="text-align: center;background-color: blanchedalmond;">{{mynumber| percent: '2.4-8'}}</h3>
+
+<h2 style="text-align: center;background-color: blue;">!!Decimal Pipes Example!!</h2>
+<h3 style="text-align: center;background-color: blanchedalmond;">{{mynumber | number}}</h3>
+
+<h3 style="text-align: center;background-color: blanchedalmond;">{{mynumber| number: '2.4-8'}}</h3>
+<h2 style="text-align: center; background-color: aquamarine;">!!Currency Pipes Example!!</h2> 
+<h2 style="text-align: center; background-color: bisque;">{{mynumber|currency}}</h2>
+<h2 style="text-align: center;background-color: beige;">{{mynumber|currency:'2.4-8'}}</h2>
+<h2 style="text-align: center;background-color: aquamarine;">{{mynumber|currency:'2.4-8':'INR'}}</h2>
+
+<h2 style="text-align: center;background-color: aquamarine;"> {{mynumber | currency:'2.4-8':'INR':'code'}}</h2>
